@@ -4,11 +4,13 @@ class Triangle
   attr_accessor :equilateral, :isosceles, :scalene, :s1, :s2, :s3
   
   
-  def initialize
+  def initialize(s1, s2, s3)
     @equilateral = equilateral
     @isosceles = isosceles
     @scalene = scalene       
-
+    @s1 = s1 
+    @s2 = s2
+    @s3 = s3
     @sides = [s1, s2, s3]
   end 
   
