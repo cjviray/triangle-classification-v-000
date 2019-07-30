@@ -19,7 +19,6 @@ class Triangle
     if (s1 + s2 <= s3) || (s1 + s3 <= s2) || (s2 + s3 <= s1)  
     begin
      raise PartnerError
-       rescue PartnerError => error
            puts error.message
        end 
       
