@@ -23,7 +23,8 @@ class Triangle
           puts error.message
         end 
         
-      else if s1 == s2 && s
+      else if s1 == s2 && s1 == s3
+        :equilateral
       
      
 
