@@ -17,8 +17,11 @@ class Triangle
   
    def kind
     if (s1 + s2 <= s3) || (s1 + s3 <= s2) || (s2 + s3 <= s1)  
-      raise TriangleError
-    else 
+    begin
+     raise PartnerError
+       rescue PartnerError => error
+           puts error.message
+       end 
       
      
     if (sides[0] >= sides[1] + sides[2]) || (sides[1] >= sides[0] + sides[2]) || (sides[2] >= sides[0] + sides[1])
