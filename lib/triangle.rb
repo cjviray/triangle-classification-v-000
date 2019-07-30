@@ -1,7 +1,7 @@
 class Triangle
 
 
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :equilateral, :isosceles, :scalene, :s1, :s2, :s3
   
   
   def initialize
@@ -11,6 +11,7 @@ class Triangle
     @s1 = s1 
     @s2 = s2
     @s3 = s3
+    @sides = [s1, s2, s3]
   end 
   
   
