@@ -22,9 +22,7 @@ class Triangle
         raise TriangleError
           puts error.message
         end 
-        
-      else if s1 == s2 && s1 == s3
-        :equilateral
+   
       
      
 
