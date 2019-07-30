@@ -9,6 +9,8 @@ class Triangle
     @scalene = scalene        
   end 
   
-
+  class Triangle Error > StandardError
+  end 
+  
     
 end
