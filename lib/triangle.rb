@@ -31,6 +31,7 @@ class Triangle
         end 
         
    else
+     
       if sides.uniq.count == 1
         :equilateral
       elsif sides.uniq.count == 2
