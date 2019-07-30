@@ -12,7 +12,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
-      puts ""
+      puts "This is not a triangle."
   end 
   
     
