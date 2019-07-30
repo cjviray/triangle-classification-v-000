@@ -23,7 +23,7 @@ class Triangle
           puts error.message
         end 
         
-      else if 
+      else if s1 
       
      
 
