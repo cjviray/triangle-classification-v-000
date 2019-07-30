@@ -14,6 +14,11 @@ class Triangle
     @sides = [s1, s2, s3]
   end 
   
+  class TriangleError < StandardError
+    def message
+      puts "This is not a triangle."
+    end 
+  end 
   
    def kind
     if (s1 + s2 <= s3) || (s1 + s3 <= s2) || (s2 + s3 <= s1)  
@@ -22,6 +27,7 @@ class Triangle
         raise TriangleError
           puts error.message
         end 
+        
    else
       if sides.uniq.count == 1
         :equilateral
@@ -39,11 +45,6 @@ class Triangle
 
 
 
-  class TriangleError < StandardError
-    def message
-      puts "This is not a triangle."
-    end 
-  end 
   
     
 end
