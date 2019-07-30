@@ -16,6 +16,8 @@ class Triangle
   
   
    def kind
+    if  
+     
     if (sides[0] >= sides[1] + sides[2]) || (sides[1] >= sides[0] + sides[2]) || (sides[2] >= sides[0] + sides[1])
       raise TriangleError
     else
