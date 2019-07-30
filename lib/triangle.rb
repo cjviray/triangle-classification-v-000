@@ -26,9 +26,7 @@ class Triangle
       else if 
       
      
-    if (sides[0] >= sides[1] + sides[2]) || (sides[1] >= sides[0] + sides[2]) || (sides[2] >= sides[0] + sides[1])
-      raise TriangleError
-    else
+
       if sides.uniq.count == 1
         :equilateral
       elsif sides.uniq.count == 2
