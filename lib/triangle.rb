@@ -10,7 +10,7 @@ class Triangle
   end 
   
 
-  def   class TriangleError > StandardError
+  class TriangleError > StandardError
   end 
   
     
